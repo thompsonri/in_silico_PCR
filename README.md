@@ -2,7 +2,7 @@
 
 This tool is an attempt to do _in silico_ PCRs from .fastq or .fasta files. 
 
-The script ses bbduk to bait reads containing the primer sequences from the .fastq files. It 
+The script uses bbduk to bait reads containing the primer sequences from the .fastq files. It 
 performs a second round of baiting on the original .fastq files with the newly created baited
 .fastq files in order to hopefully have sequence data to span the entire amplicon. Resulting
 double-baited read files are assembled into contigs using SPAdes. 
